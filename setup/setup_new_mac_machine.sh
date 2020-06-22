@@ -31,14 +31,12 @@ brew install pyenv
 brew install --HEAD pyenv-virtualenv
 
 # Install Docker.
-brew install docker
+brew cask install docker
 
 # Fix:
 # https://stackoverflow.com/questions/19215590/why-cant-i-install-any-gems-on-my-mac
 brew tap raggi/ale && brew install openssl-osx-ca
 # Useful OS X softwares.
-# Great tool but the cask has been deleted - https://github.com/JadenGeller/Helium/issues/207
-# brew cask install jadengeller-helium  # Web browser on top of all other windows
 brew cask install iterm2
 
 # Install fonts.
