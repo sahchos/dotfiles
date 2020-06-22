@@ -11,7 +11,6 @@ antigen use oh-my-zsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
 antigen bundle pip
-antigen bundle tmux
 antigen bundle common-aliases
 antigen bundle docker-compose
 antigen bundle docker-machine
@@ -24,12 +23,9 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle akarzim/zsh-docker-aliases
 
 # Load the theme.
-antigen theme agnoster-plus
+antigen theme https://github.com/yupswing/yupgnoster.git yupgnoster
 
 # Tell Antigen that you're done.
 antigen apply
-
-# vim mode in shell
-bindkey -v
 
 clear
