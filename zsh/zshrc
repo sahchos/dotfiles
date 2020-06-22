@@ -28,4 +28,8 @@ antigen theme https://github.com/yupswing/yupgnoster.git yupgnoster
 # Tell Antigen that you're done.
 antigen apply
 
+# bindings
+bindkey "[D" backward-word
+bindkey "[C" forward-word
+
 clear
