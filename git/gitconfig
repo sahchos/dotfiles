@@ -3,6 +3,7 @@
 	email = sahchos93@gmail.com
 
 [core]
+	editor = nano
 	excludesfile = ~/.gitignore_global
 	quotepath = off
 	autocrlf = false
