@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Docker
+alias drmf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
+
+# Virtualenvwrapper
+alias mkve="mkvirtualenv"
+alias ave="workon"
+alias dve="deactivate"
+alias rmve="rmvirtualenv"   # remove virtualenv
+alias lsve="lsvirtualenv"   # list virtualenvs
+
+# Django
+alias pt="pytest"
+alias pm="python manage.py"
+alias pmm="python manage.py migrate"
+alias pms="python manage.py shell"
+alias pmsi="python manage.py shell_plus --ipython --print-sql"
+alias pmr="python manage.py runserver"
+alias pmr+="python manage.py runserver_plus"
+alias pmmk="python manage.py makemigrations"
+
+# Other
+alias dotfiles="cd ~/dotfiles"

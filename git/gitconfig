@@ -1,0 +1,22 @@
+[user]
+	name = Alex Suvorov
+	email = sahchos93@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore_global
+	quotepath = off
+	autocrlf = false
+	safecrlf = false
+
+[color]
+	ui = true
+	branch = true
+	diff = true
+	interactive = true
+	status = true
+
+[push]
+	default = matching
+
+[pull]
+    rebase = true
