@@ -38,6 +38,7 @@ brew cask install docker
 brew tap raggi/ale && brew install openssl-osx-ca
 # Useful OS X softwares.
 brew cask install iterm2
+brew cask install pycharm
 
 # Install fonts.
 brew tap homebrew/cask-fonts
