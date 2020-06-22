@@ -5,6 +5,10 @@ set -euo pipefail
 sudo easy_install pip
 # Upgrade pip to the latest version
 sudo pip install --upgrade pip
+
+# force pip to python3 version
+python3 -m pip install --upgrade --force pip
+
 sudo pip install Pygments
 sudo pip install pipenv
 sudo pip install virtualenvwrapper
@@ -24,6 +28,7 @@ brew install htop
 
 # Install pyenv
 brew install pyenv
+brew install --HEAD pyenv-virtualenv
 
 # Install Docker.
 brew install docker
