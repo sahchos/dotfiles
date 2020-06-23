@@ -27,6 +27,8 @@ chsh -s $(which zsh)
 brew install htop
 # rupa z jump around
 brew install z
+# utils like imv
+brew install renameutils
 
 # Install pyenv
 brew install pyenv
