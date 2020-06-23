@@ -25,6 +25,8 @@ brew install zsh
 brew install shellcheck  # Linter for shell scripts
 chsh -s $(which zsh)
 brew install htop
+# rupa z jump around
+brew install z
 
 # Install pyenv
 brew install pyenv
@@ -38,6 +40,7 @@ brew cask install docker
 brew tap raggi/ale && brew install openssl-osx-ca
 # Useful OS X softwares.
 brew cask install iterm2
+brew cask install sublime-text
 brew cask install pycharm
 
 # Install fonts.

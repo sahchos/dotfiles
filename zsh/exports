@@ -29,3 +29,6 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# rupa z jump around
+. $(brew --prefix)/etc/profile.d/z.sh
