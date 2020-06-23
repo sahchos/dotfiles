@@ -30,6 +30,10 @@ brew install z
 # utils like imv
 brew install renameutils
 
+# install fzf
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
 # Install pyenv
 brew install pyenv
 brew install --HEAD pyenv-virtualenv

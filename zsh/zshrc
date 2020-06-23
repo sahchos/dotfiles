@@ -33,3 +33,5 @@ bindkey "[D" backward-word
 bindkey "[C" forward-word
 
 clear
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
