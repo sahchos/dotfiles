@@ -48,6 +48,8 @@ brew tap raggi/ale && brew install openssl-osx-ca
 brew cask install iterm2
 brew cask install sublime-text
 brew cask install pycharm
+brew cask install insomnia
+brew cask install telegram
 
 # Install fonts.
 brew tap homebrew/cask-fonts
