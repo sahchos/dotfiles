@@ -12,6 +12,7 @@ python3 -m pip install --upgrade --force pip
 sudo pip install Pygments
 sudo pip install pipenv
 sudo pip install virtualenvwrapper
+sudo pip install flake8
 
 # Check for Homebrew,
 # Install if we don't have it
