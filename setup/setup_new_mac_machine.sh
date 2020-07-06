@@ -26,6 +26,8 @@ brew install zsh
 brew install shellcheck  # Linter for shell scripts
 chsh -s $(which zsh)
 brew install htop
+brew install node
+
 # rupa z jump around
 brew install z
 # utils like imv
