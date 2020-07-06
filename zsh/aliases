@@ -23,3 +23,4 @@ alias pmmk="python manage.py makemigrations"
 # Other
 alias dotfiles="cd ~/dotfiles"
 alias flake8-diff="git diff -U0 | flake8 --diff"
+alias grd='git commit --amend --no-edit --date "$(date)"'
