@@ -41,6 +41,9 @@ $(brew --prefix)/opt/fzf/install
 brew install pyenv
 brew install --HEAD pyenv-virtualenv
 
+# Install direnv to allow directory based env variables
+brew install direnv
+
 # Install Docker.
 brew cask install docker
 
