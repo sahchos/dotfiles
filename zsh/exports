@@ -31,6 +31,7 @@ eval "$(pyenv virtualenv-init -)"
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="$HOME/Library/Python/3.7/bin:$PATH"
+export PATH="$HOME/.poetry/bin:$PATH"
 
 # rupa z jump around
 . $(brew --prefix)/etc/profile.d/z.sh
