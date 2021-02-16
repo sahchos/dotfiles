@@ -32,6 +32,8 @@ brew install node
 brew install z
 # utils like imv
 brew install renameutils
+# utils like ftp
+brew install inetutils
 
 # install fzf
 brew install fzf

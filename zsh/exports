@@ -25,12 +25,14 @@ export PROJECT_HOME=$HOME/projects
 export VIRTUALENVWRAPPER_PYTHON=$(which python3)
 source /usr/local/bin/virtualenvwrapper.sh
 
+# utils, libraries
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(direnv hook zsh)"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
 
 # rupa z jump around
 . $(brew --prefix)/etc/profile.d/z.sh
